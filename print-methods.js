@@ -9,5 +9,5 @@ function contact(name, number) {
   var a = new contact("David", 12345);
   var b = new contact("Amy", 987654321);
   
-  console.log(a.print("David", 12345));
-  console.log(b.print("Amy", 987654321));
+  console.log(a.print());
+  console.log(b.print());
